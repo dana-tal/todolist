@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-  <h1>Create New Title</h1>
+  <h1>Create New Todo</h1>
 <form method="post" action="/todos">
   @csrf
   <div class="form-group">
